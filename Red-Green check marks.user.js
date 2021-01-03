@@ -7,6 +7,8 @@
 // @match        http*://github.com/*
 // @require      https://code.jquery.com/jquery-3.5.1.slim.min.js
 // @grant        none
+// @downloadURL https://github.com/seishin77/Md-Red-Orange-Green-Marks/raw/master/Red-Green%20check%20marks.user.js
+// @updateURL   https://github.com/seishin77/Md-Red-Orange-Green-Marks/raw/master/Red-Green%20check%20marks.user.js
 // ==/UserScript==
 
 /* global $ */
