@@ -20,10 +20,10 @@ Source :
 
 ![Source Code](https://github.com/seishin77/Md-Red-Orange-Green-Marks/blob/master/images/source_view.PNG?raw=true)
 
-Render without MROM :
+Render without MROGM :
 
 ![Normal Render](https://github.com/seishin77/Md-Red-Orange-Green-Marks/blob/master/images/normal_view.PNG?raw=true)
 
-Render with MROM :
+Render with MROGM :
 
 ![Modified Render](https://github.com/seishin77/Md-Red-Orange-Green-Marks/blob/master/images/result_view.PNG?raw=true)
