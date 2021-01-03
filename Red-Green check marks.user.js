@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         Red/Green check marks
+// @name         Md Red/Orange/Green check Marks (MROGM)
 // @namespace    Github
-// @version      0.1
+// @version      0.2
 // @description  renders red/green check checkbox
 // @author       Seishin77
 // @match        http*://github.com/*
