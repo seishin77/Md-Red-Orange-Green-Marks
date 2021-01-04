@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         Md Red/Orange/Green check Marks (MROGM)
+// @name         Red/Green check marks
 // @namespace    Github
-// @version      0.2
+// @version      0.3
 // @description  renders red/green check checkbox
 // @author       Seishin77
 // @match        http*://github.com/*
@@ -24,7 +24,7 @@ function addStyle(css) {
 
 var selector;
 function activeMark(idx){
-    const re = /^(\[.\]) /;
+    const re = /(\[.\]) /;
 
     $(this).find(selector).each(activeMark);
 
@@ -35,7 +35,7 @@ function activeMark(idx){
 
 (function() {
     'use strict';
-    console.log("BGM started");
+    console.log("MROGM started");
     addStyle(
         'input[type="checkbox"]:disabled{display: none;}' +
         'input[type="checkbox"]:disabled + label{box-sizing: border-box;display: inline-block;width: 0.5rem;height: 0.5rem;' +
@@ -47,6 +47,8 @@ function activeMark(idx){
     );
 
     $('ul.contains-task-list li').addClass('task-list-item');
+    $('ul.contains-task-list li.task-list-item p').contents().unwrap();
+    $('ul:not(.contains-task-list) li.task-list-item').first().parent().addClass('contains-task-list');
 
     $('input[type="checkbox"]:disabled').after($('<label>'));
 
@@ -74,5 +76,5 @@ function activeMark(idx){
         }
     );
 
-    console.log("BGM ended");
+    console.log("MROGM ended");
 })();
