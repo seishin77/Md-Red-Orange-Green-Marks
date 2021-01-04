@@ -11,6 +11,9 @@ This is a \*monkey script to modify render tasks Lists.
   * [ ] Non-started subtask
   * [o] SubTask in progress
   * [O] Another SubTask in progress
+* [O] Task in progress
+  * [o] Non-started subtask
+  * [x] SubTask in progress
 * [O] Another Task in progress
 * [x] Ended task
 * [b] Information
